@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testrunjul122023"
+  description: "testrunjul122023"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://testrunjul122023.mtk8s.io
+  annotations:
+    argocd/app-name: "testrunjul122023"
+    sonarqube.org/project-key: "testrunjul122023"
+    jenkins.io/job-full-name: "testrunjul122023_App_Pipeline"
+    github.com/project-slug: kbmdev/testrunjul122023
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "testrunjul122023"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-rate-issue"
+  system: "system:default/rate"
